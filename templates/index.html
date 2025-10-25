@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>StoryBot — Fun Tales Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🧙‍♂️ StoryBot: Fun Tales & Images</h1>
+        <p class="subtitle">Ask me anything about your favorite stories — I’ll reply with humor and art!</p>
+
+        <form method="POST">
+            <input type="text" name="query" placeholder="Enter your question..." required>
+            <button type="submit">✨ Generate</button>
+        </form>
+
+        {% if reply_text %}
+        <div class="output">
+            <h3>📜 StoryBot Says:</h3>
+            <p>{{ reply_text | safe }}</p>
+        </div>
+        {% endif %}
+
+        {% if image_path %}
+        <div class="image-section">
+            <h3>🌌 AI-Generated Image:</h3>
+            <img src="{{ image_path }}" alt="Generated Image" style="max-width:100%; border-radius:10px;">
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

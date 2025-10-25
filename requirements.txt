@@ -1,0 +1,10 @@
+flask
+pdfplumber
+sentence-transformers
+faiss-cpu
+transformers
+torch
+diffusers
+accelerate
+safetensors
+huggingface-hub

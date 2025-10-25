@@ -1,0 +1,88 @@
+/* /static/style.css */
+body {
+  background: #73ed65;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  color: #0466f0;
+  margin: 0;
+  padding: 30px;
+}
+
+.container {
+  max-width: 780px;
+  margin: auto;
+  background: #d29e9e;
+  border-radius: 12px;
+  padding: 28px;
+  box-shadow: 0 6px 20px #6001260f;
+}
+
+h1 {
+  margin-top: 0;
+  color: #0240d1;
+  font-size: 26px;
+}
+
+.query-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.query-form input[type="text"] {
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #e6e6e6;
+  font-size: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.query-form button {
+  width: 160px;
+  padding: 10px;
+  background: #ff5caa;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 18px;
+  background: #7777ed;
+  padding: 16px;
+  border-radius: 10px;
+  border: 1px solid #f0f0ff;
+}
+
+.reply {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 6px 0 12px 0;
+}
+
+.image-wrap {
+  margin-top: 12px;
+}
+
+.image-wrap img {
+  max-width: 100%;
+  border-radius: 8px;
+  display: block;
+  border: 1px solid #eee;
+}
+
+.prompt {
+  font-size: 13px;
+  color: #374151;
+  margin: 8px 0;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #6b7280;
+  text-align: center;
+}
