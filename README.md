@@ -41,6 +41,8 @@ Stable Diffusion Turbo (Image Generation)
    ↓
 Flask Web Interface Output
 ```
+--- 
+open source technology: **Huggingface**
 
 ---
 
@@ -48,6 +50,7 @@ Flask Web Interface Output
 
 | Component           | Technology                             |                                                
 | ------------------- | -------------------------------------- | 
+| **Language**        | Python                                 |
 | **Backend**         | Flask                                  |
 | **Embedding Model** | sentence-transformers/all-MiniLM-L6-v2 | 
 | **Text Model**      | TinyLlama-1.1B-Chat-v1.0               | 
